@@ -1,0 +1,3 @@
+add Makefile to /
+display win:loss:draw after each game
+ask user before continuing to another game

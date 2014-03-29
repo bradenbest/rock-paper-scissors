@@ -2,7 +2,7 @@
 
 It's the game of rock paper scissors.
 
-# Note: program does nothing yet, and there are no releases yet. This is effectively version 0.0.0
+# Note: a lot of features are still unimplemented
 
 ## Manual Installation
 
