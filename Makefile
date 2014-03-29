@@ -10,5 +10,9 @@ install: all
 	mv $(T) $(P)
 uninstall:
 	rm $(P)/$(T)
+build: all
+	mv $(T) installer/build/
+	tar zcf installer.tar.gz installer/
+	zip -r installer.zip installer/
 
-.PHONY: all clean install uninstall
+.PHONY: all clean install uninstall build
