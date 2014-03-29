@@ -2,8 +2,6 @@
 
 It's the game of rock paper scissors.
 
-# Note: a lot of features are still unimplemented
-
 ## Manual Installation
 
 To compile, run
@@ -39,15 +37,15 @@ To extract via the command line, open a command line, navigate to your downloads
 And then, for tar.gz:
 
 ```bash
-    $ tar xf rock-paper-scissors.tar.gz
-    $ cd rock-paper-scissors/
+    $ tar xf installer.tar.gz
+    $ cd installer/
 ```
 
 or for .zip:
 
 ```bash
-    $ unzip rock-paper-scissors.zip
-    $ cd rock-paper-scissors/
+    $ unzip installer.zip
+    $ cd installer/
 ```
 
 after that, you can either proceed to install, or play it righ there
@@ -55,7 +53,7 @@ after that, you can either proceed to install, or play it righ there
 To play without installing:
 
 ```bash
-    $ ./rock-paper-scissors
+    $ ./build/rock-paper-scissors
 ```
 
 To install and play:
