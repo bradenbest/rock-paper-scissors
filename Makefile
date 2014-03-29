@@ -3,7 +3,7 @@ P=/usr/local/bin
 
 all:
 	cd src && $(MAKE)
-	mv src/$(TARG) ./
+	mv src/$(T) ./
 clean:
 	cd src && $(MAKE) clean
 install: all
