@@ -1,6 +1,6 @@
 # Build instructions
 
-To buildan executable for a release, make sure you are in the main directory.
+To build an executable for a release, make sure you are in the main directory.
 
 The process is as simple as this:
 
