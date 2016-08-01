@@ -151,7 +151,7 @@ smartass(float percent)
 {/*{{{*/
     int i;
 
-    for(i = 0; i <= *snark_threshold; i++)
+    for(i = 0; i < *snark_threshold; i++)
         if(percent <= snark_threshold[1 + i])
             return snark_str[i];
 
