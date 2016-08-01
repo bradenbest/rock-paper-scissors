@@ -44,7 +44,7 @@ const char *snark_str[] = {
 };
 
 const int snark_threshold[] = {
-    3,
+    4,
     30,
     60,
     90,
